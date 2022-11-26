@@ -13,4 +13,5 @@ Return the results as an array or list ( depending on language ).
 Examples:
 
 countBy(1,10)  should return  {1,2,3,4,5,6,7,8,9,10}
+
 countBy(2,5)  should return {2,4,6,8,10}

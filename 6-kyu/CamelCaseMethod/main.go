@@ -15,7 +15,7 @@ func main() {
 }
 
 func CamelCase(s string) string {
-	str := strings.Split(s, " ")
+	str := strings.Split(s, ".")
 	var s1 = ""
 	for _, i := range str {
 		s1 += strings.Title(i)

@@ -31,7 +31,6 @@ func ValidParentheses(parens string) bool {
 			count--
 		}
 		if count < 0 {
-			fmt.Println("z")
 			return false
 		}
 	}
